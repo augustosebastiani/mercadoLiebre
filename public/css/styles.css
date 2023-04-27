@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 5px #666;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+nav {
+    display: none;
+}
+
+main {
+    /* background-color: #ebebeb; */
+    width: 90vw;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contenedor-logo {
+    width: 100%;
+}
+
+.precios {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.descuentos {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.descripciones {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.logo {
+    display: block;
+}
+
+.boton-bloque {
+    display: block;
+    padding: 0px;
+    margin-top: 2px;
+    border: 1px solid #666;
+    border-radius: 2px;
+}
+
+.cuotas-centrado {
+    text-align: center;
+}
+
+.lista-sin-vinetas {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-barras {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 50%;
+    background-color: #1259c3;
+    color: #ebebeb;
+}
+
+.copyright {
+    text-align: left;
+    color: #666;
+}
+
+.logo-envio {
+    margin-left: 15px;
+    padding: 7px;
+    font-size: 20px;
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.contenedor-articulo {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    border-top: solid 1px #666;
+    background-color: white;
+    display: none;
+}
+
+.borde {
+    border-top: solid 1px #666;
+}
+
+article {
+    text-align: center;   
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+article img {
+    width: 100%;
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+@media (min-width: 361px) {
+    .contenedor-articulo {
+        display: contents;
+    }
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav {
+        display: contents;
+    }
+    .logo-barras{
+        display: none;
+    }
+}
