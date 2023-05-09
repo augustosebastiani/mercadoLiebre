@@ -4,7 +4,9 @@ const path = require('path')
 
 app.use(express.static('public'));
 
-app.listen(3000, () => 'El servidor esta corriendo en el puerto 3000');
+const port = process.env.PORT || 3000;
+app.listen(port, () => 'El servidor esta corriendo en el puerto '+ port);
+
 
 app.get('/', function(req, res){
     const rutaCompleta = path.join(__dirname, './views/home.html')
